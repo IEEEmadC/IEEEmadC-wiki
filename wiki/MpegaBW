@@ -1,0 +1,78 @@
+## Table of contents
+
+- [About the Project](#)
+- [General Preview](#)
+- [Technical](#)
+    - [Project Permissions](#)
+- [To Do List](#)
+- [Promo Video](#)
+- [CONTRIBUTING](#)
+    - [Asserts](#)
+    - [List of the Contributors on GitHub](#)
+- [Versions](#)
+- [License](#)
+- [Contact Information](#)
+- [Extended Description](#)
+
+
+### About Mpega
+Mpega is an application that tracks the user’s physical location using the phone’s inbuilt GPS module, then through the use of Google Servers shares that information with other users. There are two types of users in this application; the passenger and the public transport driver.
+
+### GENERAL PREVIEW Mpega
+![4images](http://mpegabotswana-bw.stackstaging.com/home/learn-more/)
+
+#### App Store
+[![Download it on Google Play](https://play.google.com/store/apps/details?id=bw.musedapps.mpega)
+
+###Technical
+## Permissions
+1. Internet
+2. Location 
+
+
+## To Do List
+Add the various things that you are working on.  
+
+- [x] Link application to Servers(Firebase and Google Services)
+- [x] Build the database and add security fearutes
+- [x] Query the database for specific information based on Time Stamps
+- [x] Update database with device location information
+- [ ] Adding an informative feature to teach people about the places they are at
+- [ ] Adding an extra feature to collect and present user statistics; average time waiting, fastest routes e.t.c
+
+### Promo Video (Click for full video)
+[![Watch the video](http://mpegabotswana-bw.stackstaging.com/home/learn-more/)
+
+#### CONTRIBUTING
+### Assets
+* Credit to artists [images,gifs...](https://www.flaticon.com)(https://unsplash.com/)
+
+### List of the Contributors on GitHub
+* [Contributors](https://github.com/jd-alexander/Google-Directions-Android)
+* [Contributors](https://github.com/umano/AndroidSlidingUpPanel)
+
+## Versions 
+### Mpega app
+* Version 3.0  DATE 18/12/2018
+* [Download Mpega app](https://play.google.com/store/apps/details?id=bw.musedapps.mpega)
+
+## License 
+* see [LICENSE](http://mpegabotswana-bw.stackstaging.com/home/privacy-policy/)
+
+## Contact information
+For personal feedback or questions feel free to contact me via the mail address, (musedrivenltd@gmail.com) or on FaceBook (musedappsbw)
+
+## Extended Description
+Mpega: Short description of usefulness and technical approach and tools used while developing the application
+In Botswana, public transportation is still the cheapest way to get around, the dominant forms of public transport are buses, mini buses (combi) and taxies. Using them might be cheap, but they are not always convenient; they have irregular departure times (this problem is present more so with non-bus transportation) making planning one’s trips more difficult. Public transportation is not a thing of the past, especially for developing countries, it offers a way to reduce road traffic congestions, to reduce the carbon footprint of cars and it gives employment to people.
+With that said; Mpega is an application that tracks a phone’s physical location using GPS, then through the use of Google Servers shares that information with other users. There are two types of users in this application; the passenger and the driver. This will allow the drivers to know beforehand the level of interest from passengers for their vehicles, and thus reducing the amount of time people spend waiting for cars, making planning trips easier.
+The aim is to make Mpega a planning tool, for the public transport sector; to help in scheduling car departures to be based on pedestrian trends, studied from using the application. To help city planners know which areas of the city need more transport vehicles and which could benefit from less, thus making city life easier for the average individual. Other applications of the project could include fleet monitoring for investors, and easy wireless payments (reducing money carried by drivers, thus making it safer for them) for transport fares.
+This project was developed and tested using Android Studio and android mobile phones. No framework was used. Java was the programming language of choice. Firebase`s Real Time Database was used as the backend of the application; providing a means to exchange location information and for user authentication and driver authorization. Google Maps and Google
+Directions APIs were employed to display maps and to draw paths to places on the map,
+respectively.
+Periodically the application exchanges its location information for that of other devices from
+the database, using timestamps to secure UpToDate information. The application also has a
+Note Taking feature for storing of special destinations and directions.
+For future proofing, the list of available routes is stored in the database for users to download,
+allowing for after download updates. For passenger safety, drivers need to be authorized in the
+database before they can use the application and collect passenger’s information.
